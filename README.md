@@ -1,5 +1,5 @@
 # TallerMultimedialDeGrado
-El día de hoy haré un repositorio
+Semana 1, tarea 1
 ```
 <!DOCTYPE html>
 <!-- Indica al navegador que este documento usa HTML5 -->
