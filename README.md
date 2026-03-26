@@ -1,7 +1,7 @@
-<img src="https://media.giphy.com/media/F0Y7kjfHRl3a0/giphy.gif" alt="GIF reloj" width="300"><br><br>
 #### Taller Multimedial De Grado.
 #### Bitacora de cultura web y arte digital
-
+<img src="https://media.giphy.com/media/F0Y7kjfHRl3a0/giphy.gif" alt="GIF reloj" width="300"><br><br>
+<img src="https://media.giphy.com/media/xn8xD14FtUGQgXxST5/piphy.gif" alt="GIF cat" width="200"><br><br>
 ## Índice:
 
 ### Semana 1:
@@ -75,6 +75,7 @@ MULTIMEDIAL
 </html>
 <!-- Fin del documento HTML -->
 ```
+https://giphy.com/gifs/cat-no-nub-xn8xD14FtUGQgXxST5
 ### Semana 2: Enlaces (links)
 #### Ejemplo 1 básico:
 ```html
