@@ -1,7 +1,7 @@
 #### Taller Multimedial De Grado.
 #### Bitacora de cultura web y arte digital
 <img src="https://media.giphy.com/media/F0Y7kjfHRl3a0/giphy.gif" alt="GIF reloj" width="300"><br><br>
-<img src="https://media.giphy.com/media/xn8xD14FtUGQgXxST5/piphy.gif" alt="GIF cat" width="200"><br><br>
+<img src="https://i.giphy.com/media/xn8xD14FtUGQgXxST5/giphy.gif" alt="cat no gif" width="300">
 ## Índice:
 
 ### Semana 1:
