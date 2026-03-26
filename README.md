@@ -76,6 +76,7 @@ MULTIMEDIAL
 <!-- Fin del documento HTML -->
 ```
 <div id="top"></div>
+
 <a href="#top">
   <img src="https://i.giphy.com/media/xn8xD14FtUGQgXxST5/giphy.gif" 
        id="gifNo" 
