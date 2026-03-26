@@ -4,10 +4,6 @@
 #### Bitacora de cultura web y arte digital
 ##### Elena Pavez
 
-body{
-  background-color: black;
-  color: grey;
- }
 ## Índice:
 
 ### Semana 1:
