@@ -1,6 +1,27 @@
 # Taller Multimedial De Grado
 <!DOCTYPE html>
-<!-- Indica al navegador que este documento usa HTML5 -->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>ElenaPavezsitio</title>
+
+<style>
+body{
+  background-color: #F5F4EB;
+  color: #827662;
+  margin: 0;
+  height: 100vh;          
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+</style>
+
+</head>
+
+<body>
 
 <div style="text-align: center;">
 
@@ -8,74 +29,16 @@
   <img src="https://media.giphy.com/media/F0Y7kjfHRl3a0/giphy.gif" 
        alt="GIF reloj" 
        width="200"><br><br>
-       
-Semana 1, tarea 1
-<!DOCTYPE html>
-<!-- Indica al navegador que este documento usa HTML5 -->
 
-<html>
-<!-- Inicio del documento HTML -->
+  <!-- Texto -->
+  Elena Pavez Escultora.<br>
 
-<head>
-<!-- Sección donde van metadatos, título y estilos -->
+  <!-- Link Instagram -->
+  <a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank" style="font-size:22px; color:#464138; text-decoration:none;">
+    Ver Instagram
+  </a>
 
-<meta charset="UTF-8">
-<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
-
-<title>Multimedial</title>
-<!-- Título de la página que aparece en la pestaña del navegador -->
-
-<style>
-/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
-
-body{
-/* "body" se refiere a todo el contenido visible de la página */
-
-  background-color: white;
-  /* Define que el fondo de toda la página sea blanco */
-
-  color: black;
-  /* Define que el color del texto sea negro */
-
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
-
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
-
-  display: flex;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
-
-  justify-content: center;
-  /* Centra el contenido horizontalmente */
-
-  align-items: center;
-  /* Centra el contenido verticalmente */
-
-  font-family: Arial, sans-serif;
-  /* Define la tipografía del texto */
-
-  font-size: 60px;
-  /* Define el tamaño grande del texto */
-
-}
-/* Fin de las reglas de estilo del body */
-
-</style>
-<!-- Fin de la sección de estilos -->
-
-</head>
-<!-- Fin de la sección head -->
-
-<body>
-<!-- Inicio del contenido visible de la página -->
-
-MULTIMEDIAL
-<!-- Texto que aparece en el centro de la pantalla -->
+</div>
 
 </body>
-<!-- Fin del contenido visible -->
-
 </html>
-<!-- Fin del documento HTML -->
-Semana 3, tareas más.
