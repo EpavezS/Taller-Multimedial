@@ -1,5 +1,4 @@
 # Taller Multimedial De Grado
-<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -72,11 +71,11 @@ body{
     Creación de la estructura base en HTML.</p>
     <!-- Indica al navegador que este documento usa HTML5 -->
 
-<html>
-<!-- Inicio del documento HTML -->
+  <<html>
+  <!-- Inicio del documento HTML -->
 
-<head>
-<!-- Sección donde van metadatos, título y estilos -->
+  <head>
+  <!-- Sección donde van metadatos, título y estilos -->
 
 <meta charset="UTF-8">
 <!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
@@ -143,11 +142,5 @@ MULTIMEDIAL
 
     <p><strong>Día 3:</strong> Integración de GIF animado desde Giphy.</p>
 
-    <p><strong>Primer código:</strong></p>
+    <p><strong>Primer código:</strong></p>>
 
-  </div>
-
-</div>
-
-</body>
-</html>
