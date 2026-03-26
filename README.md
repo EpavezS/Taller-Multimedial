@@ -1,6 +1,13 @@
-# TallerMultimedialDeGrado
+# Taller Multimedial De Grado
+<div style="text-align: center;">
+
+  <!-- GIF arriba -->
+  <img src="https://media.giphy.com/media/F0Y7kjfHRl3a0/giphy.gif" 
+       alt="GIF reloj" 
+       width="200"><br><br>
+       
 Semana 1, tarea 1
-```
+
 <!DOCTYPE html>
 <!-- Indica al navegador que este documento usa HTML5 -->
 
@@ -70,3 +77,4 @@ MULTIMEDIAL
 </html>
 <!-- Fin del documento HTML -->
 ```
+Semana 3, tareas más.
