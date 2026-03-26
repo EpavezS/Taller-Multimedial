@@ -75,9 +75,9 @@ MULTIMEDIAL
 </html>
 <!-- Fin del documento HTML -->
 ```
-  <img src="https://i.giphy.com/media/xn8xD14FtUGQgXxST5/giphy.gif" 
-       id="gifNo" 
-       alt="gato no">
+<a href="#top">
+  <img src="https://i.giphy.com/media/xn8xD14FtUGQgXxST5/giphy.gif" width="120">
+</a>
   
 ### Semana 2: Enlaces (links)
 #### Ejemplo 1 básico:
