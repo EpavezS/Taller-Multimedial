@@ -1,4 +1,7 @@
 # Taller Multimedial De Grado
+<!DOCTYPE html>
+<!-- Indica al navegador que este documento usa HTML5 -->
+
 <div style="text-align: center;">
 
   <!-- GIF arriba -->
@@ -7,7 +10,6 @@
        width="200"><br><br>
        
 Semana 1, tarea 1
-
 <!DOCTYPE html>
 <!-- Indica al navegador que este documento usa HTML5 -->
 
@@ -76,5 +78,4 @@ MULTIMEDIAL
 
 </html>
 <!-- Fin del documento HTML -->
-```
 Semana 3, tareas más.
