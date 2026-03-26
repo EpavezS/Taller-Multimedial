@@ -121,6 +121,7 @@ document.addEventListener("mousemove", (e) => {
     gif.style.top = newTop + "px";
   }
 });
+<script>
   
 ### Semana 2: Enlaces (links)
 #### Ejemplo 1 básico:
