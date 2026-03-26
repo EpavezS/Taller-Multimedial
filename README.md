@@ -66,17 +66,16 @@ body{
 
   <!-- BITÁCORA -->
   <div class="bitacora">
-    <h2>Bitácora de proceso</h2>
+    <h2>DOCTYPE.HTML</h2>
 
-    <p><strong>Día 1:</strong> Creación de la estructura base en HTML.</p>
+    <p><strong>Semana 1, clase 1:</strong> Creación de la estructura base en HTML.</p>
+    
 
     <p><strong>Día 2:</strong> Se agregó estilo con CSS (centrado y colores).</p>
 
     <p><strong>Día 3:</strong> Integración de GIF animado desde Giphy.</p>
 
     <p><strong>Primer código:</strong></p>
-
-    </pre>
 
   </div>
 
