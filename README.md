@@ -75,54 +75,9 @@ MULTIMEDIAL
 </html>
 <!-- Fin del documento HTML -->
 ```
-<div id="top"></div>
-
-<a href="#top">
   <img src="https://i.giphy.com/media/xn8xD14FtUGQgXxST5/giphy.gif" 
        id="gifNo" 
        alt="gato no">
-</a>
-<style>
-#gifNo {
-  width: 120px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-  transition: left 0.3s, top 0.3s;
-}
-</style>
-<script>
-const gif = document.getElementById("gifNo");
-
-document.addEventListener("mousemove", (e) => {
-  const rect = gif.getBoundingClientRect();
-
-  const gifX = rect.left + rect.width / 2;
-  const gifY = rect.top + rect.height / 2;
-  const distX = e.clientX - gifX;
-  const distY = e.clientY - gifY;
-
-  const distance = Math.sqrt(distX * distX + distY * distY);
-
-  // Si el mouse se acerca demasiado → HUYE
-  if (distance < 150) {
-    const moveX = (Math.random() - 0.5) * 300;
-    const moveY = (Math.random() - 0.5) * 300;
-
-    let newLeft = gif.offsetLeft + moveX;
-    let newTop = gif.offsetTop + moveY;
-
-    // Limitar dentro de la pantalla
-    newLeft = Math.max(0, Math.min(window.innerWidth - 120, newLeft));
-    newTop = Math.max(0, Math.min(window.innerHeight - 120, newTop));
-
-    gif.style.left = newLeft + "px";
-    gif.style.top = newTop + "px";
-  }
-});
-<script>
   
 ### Semana 2: Enlaces (links)
 #### Ejemplo 1 básico:
