@@ -1,5 +1,4 @@
 # Taller Multimedial De Grado
-<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
