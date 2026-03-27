@@ -1,4 +1,3 @@
-
 <img src="https://media.giphy.com/media/F0Y7kjfHRl3a0/giphy.gif" alt="GIF reloj" width="300"><br><br>
 ### Taller Multimedial De Grado.
 #### Bitacora de cultura web y arte digital
