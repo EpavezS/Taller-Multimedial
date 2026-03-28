@@ -1,6 +1,91 @@
-<h1>Contacto</h1>
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+<meta charset="UTF-8">
+<title>contacto-epavez</title>
 
-<p>epavezs@uft.edu</p>
+<style>
+body {
+  background-color: #F5F4EB;
+  color: #827662;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-<a href="index.html">Inicio</a><br>
-<a href="obra.html">Obra</a>
+.centrado {
+  text-align: center;
+  margin-top: 100px; /* opcional, lo baja un poco */
+  font-size: 18px;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  font-weight: bold;
+}
+
+/* LOGO */
+.logo {
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-decoration: none; /* quita el subrayado */
+  color: #827662;
+}
+
+/* MENU */
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #464138;
+  font-size: 16px;
+}
+
+/* GALERIA */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 40px;
+}
+
+.item {
+  text-align: left;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.item img:hover {
+  transform: scale(1.03);
+}
+
+.titulo {
+  margin-top: 8px;
+  font-size: 14px;
+}
+</style>
+
+</head>
+
+<body>
+<header>
+ <a href="index.html" class="logo">E|PAVEZ</a>
+
+  <nav>
+    <a href="contacto.html">Contacto</a>
+    <a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank">Instagram</a>
+  </nav>
+</header>
+
+<p class="centrado">epavezs@uft.edu</p>
+</header>
+
+</body>
+</html>
