@@ -1,38 +1,127 @@
 <!DOCTYPE html>
 <html lang="es">
-<html>
 <head>
 <meta charset="UTF-8">
-<title>ElenaPavezsitio</title>
+<title>epavez</title>
 
 <style>
-body{
-
+body {
   background-color: #F5F4EB;
   color: #827662;
   margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 50px;
-
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+  font-weight: bold;
+}
+
+/* LOGO */
+.logo {
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-decoration: none; /* quita el subrayado */
+  color: #827662;
+}
+
+/* MENU */
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #464138;
+  font-size: 16px;
+}
+
+/* GALERIA */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 40px;
+}
+
+.item {
+  text-align: left;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.item img:hover {
+  transform: scale(1.03);
+}
+
+.titulo {
+  margin-top: 8px;
+  font-size: 14px;
+}
 </style>
+
 </head>
+
 <body>
-<div style="text-align: center;">
-  Elena Pavez.<br>
 
-  <a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank" style="font-size:22px; color:#464138; text-decoration:none;">
-    Ver Instagram
-  </a>
+<header>
+ <a href="index.html" class="logo">E|PAVEZ</a>
+
+  <nav>
+    <a href="contacto.html">Contacto</a>
+    <a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank">Instagram</a>
+  </nav>
+</header>
+
+<div class="galeria">
+
+  <div class="item">
+    <a href="timon.html">
+      <img src="img/timon.PNG" alt="Obra 1">
+    </a>
+    <div class="titulo">Timón</div>
+  </div>
+
+  <div class="item">
+    <a href="manodeobra.html">
+      <img src="img/paladeobra1.png" alt="Obra 2">
+    </a>
+    <div class="titulo">Serie Mano de Obra (Pala)</div>
+  </div>
+
+  <div class="item">
+    <a href="anticucho.html">
+      <img src="img/anticucho1.PNG" alt="Obra 3">
+    </a>
+    <div class="titulo">Anticucho</div>
+  </div>
+
+  <div class="item">
+    <a href="curva.html">
+      <img src="img/Curvas.jpg" alt="Obra 4">
+    </a>
+    <div class="titulo">Curvas & Escalas</div>
+  </div>
+
+  <div class="item">
+    <a href="forjamano.html">
+      <img src="img/forjamanoback1.JPG" alt="Obra 5">
+    </a>
+    <div class="titulo">Mano de Forja</div>
+  </div>
+
+  <div class="item">
+    <a href="cube.html">
+      <img src="img/cube.png" alt="Obra 6">
+    </a>
+    <div class="titulo">Cube</div>
+  </div>
 </div>
-<img src="img/IMG-20240208-WA0007.jpg" 
-     alt="close up cristo de cerca" 
-     width="400">
-</html>
-<!-- Fin del documento HTML -->
 
+</body>
+</html>
