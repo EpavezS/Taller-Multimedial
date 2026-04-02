@@ -34,153 +34,68 @@ nav a {
   font-weight: bold;
 }
 
-/* GALERÍA */
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  max-width: 900px;
-  margin: 50px auto;
+.contenedor { /* Clase contenedora */
+  display: flex; /* Activa flexbox: organiza los hijos en fila */
+  justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
 }
 
-.galeria img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  cursor: pointer;
-  transition: transform 0.3s ease;
+.caja { /* Clase para cada bloque */
+  background-color: rgb(248, 233, 225); /* Color de fondo */
+  padding: 20px; /* Espacio interno */
 }
-
-.galeria img:hover {
-  transform: scale(1.05);
-}
-
-/* FLECHA */
-.flecha-lateral {
-  position: fixed;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: black;
-  color: white;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-/* POPUP */
-.popup {
-  display: none;
-  position: fixed;
-  z-index: 2000;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.9);
-}
-
-.popup-img {
-  display: block;
-  margin: auto;
-  max-width: 90%;
-  max-height: 90%;
-  margin-top: 5%;
-}
-
-.cerrar {
-  position: absolute;
-  top: 20px;
-  right: 30px;
-  color: white;
-  font-size: 40px;
-  cursor: pointer;
-}
-
-.popup .flecha {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  color: white;
-  font-size: 50px;
-  cursor: pointer;
-  padding: 20px;
-}
-
-.popup .izquierda { left: 20px; }
-.popup .derecha { right: 20px; }
 </style>
 
+<div class="contenedor"> <!-- Contenedor flex -->
+  <div class="bloque"></div> <!-- Primer bloque -->
+   <img src="img/timon2.PNG" alt="EYYY">
+    <h3>Timón</h3>
+      <p>
+  <div class="contenedor"></div> <!-- Segundo bloque -->
+    <div class="bloque"></div> <!-- Primer bloque -->
+   <img src="img/timon2.PNG" alt="EYYY">
+    <h3>Timón</h3>
+      <p>
+  <div class="contenedor">3</div> <!-- Tercer bloque -->
+</div>
+
+<style>
+body { /* Aplica estilos al cuerpo completo de la página */
+  display: flex; /* Activa flexbox */
+  justify-content: center; /* Centra horizontalmente */
+  /* align-items: center; Centra verticalmente */
+  height: 100vh; /* Altura total de la pantalla (viewport height) */
+}
+
+.caja { /* Elemento que será centrado */
+  background-color: black; /* Fondo negro */
+  color: white; /* Texto blanco */
+  padding: 30px; /* Espacio interno */
+}
+</style>
+
+<style>
+img { /* Aplica a todas las imágenes */
+  width: 300px; /* Ancho fijo */
+  height: 200px; /* Alto fijo */
+  object-fit: cover; /* Ajusta la imagen sin deformarla (recorta si es necesario) */
+  border: 5px solid black; /* Borde negro de 5px */
+}
+</style>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg" /> <!-- Imagen de ejemplo -->
+
+<div class="caja">Centro</div> <!-- Elemento centrado en pantalla -->
+
+</style>
 </head>
-
-<body>
-
-<header>
 <a href="index.html" class="logo">E|PAVEZ</a>
 <nav>
   <a href="index.html">Contacto</a>
   <a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank">Instagram</a>
 </nav>
 </header>
-
-<a href="index.html" class="flecha-lateral">‹</a>
-
-<div class="galeria">
-  <img src="img/timonclose.PNG" class="item-img">
-  <img src="img/timon2.PNG" class="item-img">
-  <img src="img/timon3.PNG" class="item-img">
-  <img src="img/timon4.PNG" class="item-img">
-  <img src="img/timon5.PNG" class="item-img">
-  <img src="img/timon6.PNG" class="item-img">
-</div>
-
-<!-- POPUP -->
-<div id="popup" class="popup">
-  <span class="cerrar">&times;</span>
-  <img class="popup-img" id="imagenGrande">
-  <span class="flecha izquierda">‹</span>
-  <span class="flecha derecha">›</span>
-</div>
-
-<script>
-const imagenes = document.querySelectorAll(".item-img");
-const popup = document.getElementById("popup");
-const popupImg = document.getElementById("imagenGrande");
-const cerrar = document.querySelector(".cerrar");
-const izquierda = document.querySelector(".izquierda");
-const derecha = document.querySelector(".derecha");
-
-let index = 0;
-
-imagenes.forEach((img, i) => {
-  img.addEventListener("click", () => {
-    popup.style.display = "block";
-    popupImg.src = img.src;
-    index = i;
-  });
-});
-
-cerrar.onclick = () => popup.style.display = "none";
-
-function mostrarImagen(i) {
-  if (i < 0) i = imagenes.length - 1;
-  if (i >= imagenes.length) i = 0;
-  popupImg.src = imagenes[i].src;
-  index = i;
-}
-
-izquierda.onclick = () => mostrarImagen(index - 1);
-derecha.onclick = () => mostrarImagen(index + 1);
-
-popup.onclick = (e) => {
-  if (e.target === popup) popup.style.display = "none";
-};
-</script>
-
+<body>
 </body>
+
+</script>
 </html>
