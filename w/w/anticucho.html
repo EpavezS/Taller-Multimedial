@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>anticucho</title>
+
+<style>
+body {
+  background-color: #F5F4EB;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-decoration: none; /* quita el subrayado */
+  color: #827662;
+}
+
+/* MENU */
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #464138;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* GALERÍA */
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.item {
+  overflow: hidden;
+}
+
+.item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* FLECHA */
+.flecha-lateral {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<a href="index.html" class="logo">E|PAVEZ</a>
+
+  <nav>
+    <a href="index.html">Contacto</a>
+    <a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank">Instagram</a>
+  </nav>
+</header>
+
+<a href="index.html" class="flecha-lateral">‹</a>
+
+<div class="galeria">
+
+  <a href="obra1.html" class="item">
+    <img src="img/anticuchofront.PNG" alt="Obra 1">
+  </a>
+
+  <a href="obra2.html" class="item">
+    <img src="img/allanticucho.PNG" alt="Obra 2">
+  </a>
+
+  <a href="obra3.html" class="item">
+    <img src="img/anticucho.PNG" alt="Obra 3">
+  </a>
+
+</div>
+
+</body>
+</html>
