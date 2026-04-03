@@ -35,12 +35,13 @@
 
   /* Sección o bloque */
  .bloque {
-  background-color: white;
+  background-color: rgb(238, 236, 226);
   margin: 20px 0;
   padding: 20px;
   border-radius: 0;
   width: 200px;
-  border: 1px solid rgb(39, 32, 27); /* Borde negro de 5px */
+  border: 1px solid rgb(78, 66, 57); /* Borde negro de 5px */
+  transition: 0.3s;
   }
 
  /* Imagen */
@@ -48,6 +49,12 @@
  width: 100%;
  height: auto;
  }
+
+ .bloque:hover {
+ padding: 15px; 
+ border-radius: 0;
+ color: #998c6f;
+}
 
 /* MENU DE ARRIBA JEJE*/
 nav a {
@@ -69,7 +76,7 @@ nav a {
  <div class="abajo">
         <!-- BLOQUE 1 -->
         <div class="bloque">
-          <img src="img/timon.PNG" alt="Imagen de contacto" width="200">
+          <img src="img/timon.PNG">
           <h4>Timón</h4>
           <h6>Metal y madera</h6>
         </div>
@@ -84,7 +91,13 @@ nav a {
         <img src="img/cube.png">
         <h4>Cube</h4>
         <h6>Planchas de acero</h6>
-  </div>
+        </div>
+
+        <div class="bloque">
+        <img src="img/anticucho1.PNG">
+        <h4>Anticucho</h4>
+        <h6>Fierro y madera</h6>
+        </div>
 </div>
 <body>
 
