@@ -1,127 +1,74 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>epavezportafolio</title>
+<title>ELENAPORTADA</title>
 
-<style>
-body {
-  background-color: #F5F4EB;
-  color: #827662;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  <style>
+     /* Estilo general del cuerpo */
+     body {
+      background-image: url(img/puo.png); /* ACA PUSE BACKGROUND Y ME SALIO LA OPCION DE B-IMAGE Y LA USÉ */
+      background-size: 50%;
+      font-family: Arial, sans-serif;
+      margin-left: 0px;
+      color: #464138;
+      font-size: 20px;
+      font-weight: bold;  
+      }
+
+      /* CONTENEDOR DEL NOMBRE DE ARRIBA*/
+      .arriba {
+      width: 100%; /* largo del cubito*/
+      margin: 20px 0; /* descubriendo como funciona esto*/
+      background-color: rgba(245, 244, 235, 0.8); /* hola profe acá le pregunte en google como bajar la opacidad de un contenedor sin que afecte a las letras */
+
+      }
+
+       /* CONTENEDOR DE ABAJO mensaje para el profe*/
+     .abajo {
+      background-color: rgba(190, 189, 186, 0.8);
+      margin: 20px 0;
+      padding: 10px;
+      border-radius: 0%;
+      width: 20%;
+      }
+
+      nav a {
+      margin-left: 20px;
+      text-decoration: none; /*este lo aprendí con uno que me dio la ia en la anterior pagina */
+      color: #464138;
+      }
+
+.boton { /* Define una clase llamada "boton" */
+display: flex; /* Activa flexbox: organiza los hijos en fila */
+  justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+  background-color: rgb(227, 230, 212, 0.8); /* Color de fondo del botón Y SE BAJE LA OPASICDAD */
+  color: #464138; /* Color del texto */
+  padding: 20px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
+  width: 420px; /* Ancho fijo del botón */
+  text-align: center; /* Centra el texto horizontalmente */
+  transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+  border-radius: 3%;
+
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 40px;
-  font-weight: bold;
-}
-
-/* LOGO */
-.logo {
-  font-size: 40px;
-  letter-spacing: 3px;
-  text-decoration: none; /* quita el subrayado */
-  color: #827662;
-}
-
-/* MENU */
-nav a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #464138;
-  font-size: 16px;
-}
-
-/* GALERIA */
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-  padding: 40px;
-}
-
-.item {
-  text-align: left;
-}
-
-.item img {
-  width: 100%;
-  height: auto;
-  cursor: pointer;
-}
-
-/*AQUÍ VA UN HOVER QUE REALMENTE NO VOY A PONER PQ SE SUPONE Q NO SE HACED EZO*/
-
-/* TITULE ABAJE DE LAS OBRAS */
-.titulo {
-  margin-top: 2px;
-  font-size: 12px;
-  object-fit: cover;
+.boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
+  background-color: rgb(119, 94, 94, 0.9); /* Cambia el color de fondo al pasar el mouse */
+  color: #eee8dc; /* Color del texto */
+  padding: 20px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
+  width: 420px; /* Ancho fijo del botón */
+  text-align: center; /* Centra el texto horizontalmente */
 }
 </style>
-
-</head>
-
 <body>
+ <nav class="arriba">
+       <a href="index.html">E|PAVEZ</a>
+       <a href="bio.html">BIOGRAFIA</a>
+       <a href="contacto.html">CONTACTO</a>
+       <a href="obras.html">OBRAS</a>
+ </nav>
 
-<header>
- <a href="index.html" class="logo">E|PAVEZ</a>
-
-  <nav>
-    <a href="bio.html">Bio</a>
-    <a href="contacto.html">Contacto</a>
-    <a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank">Instagram</a>
-  </nav>
-</header>
-
-<div class="galeria">
-
-  <div class="item">
-    <a href="timon.html">
-      <img src="img/timon.PNG" alt="Obra 1">
-    </a>
-    <div class="titulo">Timón</div>
-  </div>
-
-  <div class="item">
-    <a href="manodeobra.html">
-      <img src="img/paladeobra1.png" alt="Obra 2">
-    </a>
-    <div class="titulo">Serie Mano de Obra (Pala)</div>
-  </div>
-
-  <div class="item">
-    <a href="anticucho.html">
-      <img src="img/anticucho1.PNG" alt="Obra 3">
-    </a>
-    <div class="titulo">Anticucho</div>
-  </div>
-
-  <div class="item">
-    <a href="curva.html">
-      <img src="img/Curvas.jpg" alt="Obra 4">
-    </a>
-    <div class="titulo">Curvas & Escalas</div>
-  </div>
-
-  <div class="item">
-    <a href="forjamano.html">
-      <img src="img/forjamanoback1.JPG" alt="Obra 5">
-    </a>
-    <div class="titulo">Mano de Forja</div>
-  </div>
-
-  <div class="item">
-    <a href="cube.html">
-      <img src="img/cube.png" alt="Obra 6">
-    </a>
-    <div class="titulo">Cube</div>
-  </div>
-</div>
-
+<div class="boton">
+<h6>Hola profesorcito estoy haciendo la pagina denuevo sin copy de la ia, con los codigos en su github y buscando en internet u,_,u</h6>
 </body>
 </html>

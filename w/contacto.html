@@ -1,91 +1,64 @@
 <!DOCTYPE html>
-<html lang="es"></html>
+<html lang="es">
+<html>
 <head>
 <meta charset="UTF-8">
-<title>contacto-epavez</title>
+<title>contacto</title>
 
 <style>
-body {
-  background-color: #F5F4EB;
-  color: #827662;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.centrado {
-  text-align: center;
-  margin-top: 100px; /* opcional, lo baja un poco */
-  font-size: 18px;
-}
-
-/* HEADER */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 40px;
-  font-weight: bold;
-}
-
-/* LOGO */
-.logo {
-  font-size: 40px;
-  letter-spacing: 3px;
-  text-decoration: none; /* quita el subrayado */
-  color: #827662;
-}
-
-/* MENU */
-nav a {
-  margin-left: 20px;
-  text-decoration: none;
+ body {
+  font-family: Arial, sans-serif;
+  background-image: url(img/holy.JPG); /* ACA PUSE BACKGROUND Y ME SALIO LA OPCION DE B-IMAGE Y LA USÉ */
+  background-size: 70%;
+  margin-left: 0px;
   color: #464138;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;  
+  }
+/* CONTENEDOR DEL NOMBRE DE ARRIBA*/
+ .arriba {
+ width: 100%; /* largo del cubito*/
+ margin: 20px 0; /* descubriendo como funciona esto*/
+ background-color: rgba(245, 244, 235, 0.8); /* hola profe acá le pregunte en google como bajar la opacidad de un contenedor sin que afecte a las letras */
 }
 
-/* GALERIA */
-.galeria {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
-  padding: 40px;
-}
+/* CONTENEDOR DE ABAJO del menuu*/
+.abajo {
+ background-color: rgba(228, 213, 174, 0.7);
+ padding: 10px; 
+ border-radius: 0;
+ width: 20%;
+ }
 
-.item {
-  text-align: left;
-}
+/* MENU DE ARRIBA JEJE*/
+nav a {
+ margin-left: 20px;
+ text-decoration: none; /*este lo aprendí de la ia en una anterior pagina SISE OCUPARLE PORFE NO LO COPIE SOLAMENTE */
+ color: #464138;
+ text-decoration: none; /* quita el subrayado */
+ }
 
-.item img {
-  width: 100%;
-  height: auto;
-  transition: transform 0.3s ease;
-  cursor: pointer;
-}
-
-.item img:hover {
-  transform: scale(1.03);
-}
-
-.titulo {
-  margin-top: 8px;
-  font-size: 14px;
+.abajo a { /* PARA SACAR EL MALDITO SUPERLINK DE INSTAGRAM*/
+  color: #464138;
+  text-decoration: none;
 }
 </style>
 
-</head>
-
+<!-- Bloque ARRIBA DE LA PAGINA -->
 <body>
-<header>
- <a href="index.html" class="logo">E|PAVEZ</a>
+ <nav class="arriba">
+    <a href="index.html">E|PAVEZ</a>
+    <a href="bio.html">BIOGRAFIA</a>
+    <a href="contacto.html">CONTACTO</a>
+    <a href="obras.html">OBRAS</a>
+ </nav>
 
-  <nav>
-    <a href="contacto.html">Contacto</a>
-    <a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank">Instagram</a>
-  </nav>
-</header>
-
-<p class="centrado">epavezs@uft.edu</p>
-</header>
+ <div class="abajo">
+<h1>Contacto</h1>
+<img src="img/io.png" alt="Imagen de contacto" width="200">
+<h6>epavezs@uft.edu</h6>
+<a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank">Instagram</a>
+</div>
 
 </body>
 </html>

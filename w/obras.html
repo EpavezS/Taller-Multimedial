@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ELENAOBRAS</title>
+
+<style>
+ body {
+  font-family: Arial, sans-serif;
+  background-image: url(img/lukacry.webp); /* ACA PUSE BACKGROUND Y ME SALIO LA OPCION DE B-IMAGE Y LA USÉ */
+  background-size: 90%;
+  margin-left: 0px;
+  color: #464138;
+  font-size: 20px;
+  font-weight: bold;  
+  }
+/* CONTENEDOR DEL NOMBRE DE ARRIBA*/
+ .arriba {
+ width: 100%; /* largo del cubito*/
+ margin: 20px 0; /* descubriendo como funciona esto*/
+ background-color: rgba(245, 244, 235, 0.8); /* hola profe acá le pregunte en google como bajar la opacidad de un contenedor sin que afecte a las letras */
+ }
+
+/* CONTENEDOR DE ABAJO mensaje para el profe*/
+.abajo {
+ justify-content: center; /* Distribuye los elementos con espacio alrededor */
+ display: flex; /* Activa flexbox: organiza los hijos en fila */
+ flex-wrap: wrap;
+ gap: 20px;
+ background-color: rgba(231, 224, 206, 0.7);
+ padding: 10px; 
+ border-radius: 0;
+ width: 100%;
+ }
+
+  /* Sección o bloque */
+ .bloque {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 0;
+  width: 200px;
+  }
+
+ /* Imagen */
+ .bloque img {
+ width: 100%;
+ height: auto;
+ }
+
+/* MENU DE ARRIBA JEJE*/
+nav a {
+ margin-left: 20px;
+ text-decoration: none; /*este lo aprendí de la ia en una anterior pagina SISE OCUPARLE PORFE NO LO COPIE SOLAMENTE */
+ color: #464138;
+ }
+</style>
+
+<!-- Bloque ARRIBA DE LA PAGINA -->
+<body>
+ <nav class="arriba">
+    <a href="index.html">E|PAVEZ</a>
+    <a href="bio.html">BIOGRAFIA</a>
+    <a href="contacto.html">CONTACTO</a>
+    <a href="obras.html">OBRAS</a>
+ </nav>
+
+ <div class="abajo">
+        <!-- BLOQUE 1 -->
+        <div class="bloque">
+          <img src="img/timon.PNG" alt="Imagen de contacto" width="200">
+          <h4>Timón</h4>
+          <h6>Metal y madera</h6>
+        </div>
+
+        <div class="bloque">
+        <img src="img/paladeobra1.png">
+          <h4>Pala de Obra</h4>
+          <h6>Metal</h6>
+        </div>
+
+        <div class="bloque">
+        <img src="img/cube.png">
+        <h4>Cube</h4>
+        <h6>Planchas de acero</h6>
+  </div>
+</div>
+<body>
+
+</body>
+</html>
