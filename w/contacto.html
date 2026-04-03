@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-<html>
 <head>
 <meta charset="UTF-8">
 <title>contacto</title>
@@ -24,10 +23,15 @@
 
 /* CONTENEDOR DE ABAJO del menuu*/
 .abajo {
- background-color: rgba(228, 213, 174, 0.7);
+ background-color: rgba(68, 66, 59, 0.4);
  padding: 10px; 
  border-radius: 0;
- width: 20%;
+ justify-content: center; /* Distribuye los elementos con espacio alrededor */
+ display: flex; /* Activa flexbox: organiza los hijos en fila */
+ flex-wrap: wrap;
+ gap: 20px;
+ width: 100%;
+ text-align: center;
  }
 
 /* MENU DE ARRIBA JEJE*/
@@ -41,6 +45,37 @@ nav a {
 .abajo a { /* PARA SACAR EL MALDITO SUPERLINK DE INSTAGRAM*/
   color: #464138;
   text-decoration: none;
+
+}
+  /* Sección o bloque */
+ .bloque {
+  background-color: rgb(124, 118, 108);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 0;
+  width: 200px;
+  text-align: center;
+  }
+
+ .bloque img {
+ width: 100%;
+ height: auto;
+ border: 1px solid rgb(39, 32, 27); /* Borde negro de 5px */
+ }
+
+.letras {
+ padding: 5px; 
+ text-align: center;
+ color: rgb(70, 65, 56);
+ transition: 0.3s;
+
+}
+
+.letras:hover {
+ padding: 10px; 
+ border-radius: 0;
+ color: #eee8dc;
+
 }
 </style>
 
@@ -53,11 +88,13 @@ nav a {
     <a href="obras.html">OBRAS</a>
  </nav>
 
- <div class="abajo">
-<h1>Contacto</h1>
-<img src="img/io.png" alt="Imagen de contacto" width="200">
-<h6>epavezs@uft.edu</h6>
-<a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank">Instagram</a>
+<div class="abajo">
+     <div class="bloque">
+  <h3>Contacto</h3>
+  <div class="letras"><img src="img/io.png" alt="Imagen de contacto" width="200">
+  <h6>epavezs@uft.edu</h6>
+  <a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank">Instagram</a>
+</div>
 </div>
 
 </body>
