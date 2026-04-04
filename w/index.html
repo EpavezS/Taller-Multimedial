@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ELENAPORTADA</title>
+<title>EPAVEZ</title>
 
   <style>
      /* Estilo general del cuerpo */
@@ -21,53 +21,68 @@
       width: 100%; /* largo del cubito*/
       margin: 20px 0; /* descubriendo como funciona esto*/
       background-color: rgba(245, 244, 235, 0.8); /* hola profe acá le pregunte en google como bajar la opacidad de un contenedor sin que afecte a las letras */
-
       }
 
-     .abajo {
-      background-color: rgba(58, 50, 43, 0.8);
-      margin: 20px 0;
-      padding: 10px;
-      border-radius: 0%;
-      width: 20%;
-      }
-
-      nav a {
-      margin-left: 20px;
-      text-decoration: none; /*este lo aprendí con uno que me dio la ia en la anterior pagina */
-      color: #464138;
-      }
+      /* CONTENEDOR DE ABAJO del menuu que probablemente acá no uso*/
 
 .boton { /* Define una clase llamada "boton" */
-   justify-content: center; /* Distribuye los elementos con espacio alrededor */
-   flex-wrap: wrap;
-   margin: 20px auto; /* ESTO lo centra */
-  background-color: rgb(70, 65, 56, 0.8); /* Color de fondo del botón Y SE BAJE LA OPASICDAD */
+  justify-content: center; /* Distribuye los elementos con espacio alrededor */
+  flex-wrap: wrap;
+  margin: 20px auto; /* ESTO lo centra */
+  background-color: rgba(68, 66, 59, 0.4); /* Color de fondo del botón Y SE BAJE LA OPASICDAD */
   color: rgb(70, 65, 56); /* Color del texto */
-  padding: 20px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
+  padding: 20px 10px 20px 10px; /* Espacio interno (arriba → derecha → abajo → izquierda) */
   width: 420px; /* Ancho fijo del botón */
   text-align: center; /* Centra el texto horizontalmente */
-  transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+  transition: 0.6s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+}
+
+.boton img {
+ width: 80%;
+ height: auto; 
+ opacity: 0.4;
 }
 
 .boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
-  background-color: rgba(122, 105, 105, 0.9); /* Cambia el color de fondo al pasar el mouse */
+  background-color: rgba(63, 55, 47, 0.822); /* Cambia el color de fondo al pasar el mouse */
   color: #eee8dc; /* Color del texto */
-  padding: 20px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
+  padding: 25px 15px 25px 15px; /* Espacio interno (arriba → derecha → abajo → izquierda) */
   width: 420px; /* Ancho fijo del botón */
   text-align: center; /* Centra el texto horizontalmente */
-    border: 1px solid #eee8dc; /* Borde negro de 5px */
+  opacity: 1.0;
+}
+
+/*PROBANDO SI ESTO FUNCIONA*/
+.boton:hover img { /*OMG SI FUNCIONÓ*/
+ opacity: 1.0;
+ transition: 0.6s; 
+}
+
+.boton h6 { /* OMG ESTE TMB FUNCIONO*/
+  margin: 5px 0;
+}
+
+nav a {
+margin-left: 20px;
+text-decoration: none; /*este lo aprendí con uno que me dio la ia en la anterior pagina */
+color: #464138;
 }
 </style>
 <body>
  <nav class="arriba">
-       <a href="index.html">E|PAVEZ</a>
-       <a href="bio.html">BIOGRAFIA</a>
-       <a href="contacto.html">CONTACTO</a>
-       <a href="obras.html">OBRAS</a>
+    <a href="index.html">E|PAVEZ</a>
+    <a href="obras.html">ESCULTURAS</a>
+    <a href="bio.html">BIOGRAFÍA</a>
+    <a href="contacto.html">CONTACTO</a>
  </nav>
 
 <div class="boton">
-<h6>Hola profesorcito estoy haciendo la pagina denuevo sin copy de la ia, con los codigos en su github y buscando en internet u,_,u</h6>
+<h6>Hola profesorcito estoy haciendo la pagina denuevo sin copy de la ia, solo con los codigos en su github u,_,u</h6>
+</div>
+<div class="boton">
+        <!-- BLOQUE 1 -->
+          <img src="img/tubos.jpg">
+          <h6>Tubos</h6>
+        </div>
 </body>
 </html>
