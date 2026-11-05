@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>contacto</title>
+<link rel="icon" href="img/icon.png" type="image/jpeg">
+
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  background-image: url(img/cristoclose.jpg);
+  background-size: 100%;
+  margin: 0;
+  font-weight: bold; 
+}
+  .arriba {
+   position: sticky;
+   top: 0;
+   width: 100%;
+   background-color: rgba(255, 255, 255, 0.6);
+   backdrop-filter: blur(5px);
+   font-size: 40px; 
+   padding: 10px 0;
+   z-index: 1000;
+  }
+
+  /* LINKS */
+  .arriba a {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   margin: 0 20px;
+   transition: 0.3s;
+   display: inline-block;
+  }
+
+/* CONTENEDOR DE ABAJO del menuu*/
+.abajo {
+ background-color: rgba(68, 66, 59, 0.4);
+ padding: 10px; 
+ border-radius: 0;
+ justify-content: center; /* Distribuye los elementos con espacio alrededor */
+ display: flex; /* Activa flexbox: organiza los hijos en fila */
+ flex-wrap: wrap;
+ gap: 20px;
+ width: 100%;
+ text-align: center;
+ }
+
+.abajo a { /* PARA SACAR EL MALDITO SUPERLINK DE INSTAGRAM*/
+  color: #464138;
+  text-decoration: none;
+
+}
+
+.bloque:hover a{
+  color: white
+}
+  /* Sección o bloque */
+ .bloque {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 0;
+  width: 200px;
+  text-align: center;
+  }
+
+ .bloque img {
+ width: 100%;
+ height: auto;
+ border: 1px solid rgb(39, 32, 27); /* Borde negro de 5px */
+ }
+
+.letras {
+ padding: 5px; 
+ text-align: center;
+ color: rgba(0, 0, 0, 0.7);
+ transition: 0.3s;
+
+}
+
+.letras:hover {
+ padding: 10px; 
+ border-radius: 0;
+ color: #eee8dc;
+
+}
+
+.bloque h3 { 
+  margin: 5px 0;
+}
+.bloque h6 { 
+  margin: 15px 10px 20px 10px;
+}
+
+nav a {
+ margin-left: 20px;
+ text-decoration: none;
+ color: #000000;
+ }
+
+</style>
+<body>
+ <nav class="arriba">
+   <a></a>
+    <a href="index.html">E|PAVEZ</a>
+    <a></a>
+    <a href="obras.html">OBRA</a>
+    <a href="bio.html">BIO</a>
+    <a href="contacto.html">CONTACT</a>
+ </nav>
+</div>
+<div class="abajo">
+     <div class="bloque">
+
+  <h3>Contacto</h3>
+  <div class="letras"><img src="img/io.png" alt="Imagen de contacto" width="200">
+    <h6></h6>
+  <a href="https://www.instagram.com/epavezs/?hl=es-la" target="_blank">Instagram</a>
+  <div></div>
+      <h6></h6>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=epavezs@uft.edu" target="_blank">
+    Mail
+  </a>
+</div>
+</div>
+
+</body>
+</html>

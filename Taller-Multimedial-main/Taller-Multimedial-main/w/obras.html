@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>ELENAOBRAS</title>
+<link rel="icon" href="img/icon.png" type="image/jpeg">
+
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(0, 0, 0);
+  background-size: 80%;
+  margin: 0px;
+  color: #000000;
+  font-weight: bold;  
+  }
+
+  /*  NAVBAR  */
+  .arriba {
+   position: sticky;
+   top: 0;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   backdrop-filter: blur(5px);
+   font-size: 40px; 
+   padding: 10px 0;
+   z-index: 1000;
+  }
+
+  /* LINKS */
+  .arriba a {
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   margin: 0 20px;
+   transition: 0.3s;
+   display: inline-block;
+  }
+
+  .arriba a:hover {
+   color: #808080;
+  }
+
+.abajo {
+ justify-content: center; 
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ background-color: rgba(102, 96, 80, 0.5);
+ padding: 10px; 
+ border-radius: 0;
+ width: 100%;
+ }
+
+ .abaje {
+ justify-content: center; 
+ display: flex;
+ flex-wrap: wrap;
+ gap: 20px;
+ background-color: rgba(102, 96, 80, 0.5);
+ padding: 10px; 
+ border-radius: 0;
+ width: 100%;
+ }
+
+ .bloque {
+  justify-content: center;
+  background-color: rgba(124, 124, 124, 0.4);
+  margin: 20px 0;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  border: 1px solid rgb(78, 66, 57);
+  transition: 0.6s;
+  }
+
+ .bloque img {
+ width: 100%;
+ height: auto;
+ }
+
+ .bloque:hover {
+ padding: 24px; 
+ color: #998c6f;
+}
+
+.bloque h6 {
+  margin: 5px 0;
+}
+
+.caja {
+ background-color: rgb(97, 97, 97);
+  margin: 20px 0;
+  padding: 20px;
+  width: 400px;
+  border: 1px solid rgb(78, 66, 57);
+  text-align: center;
+  transition: 0.6s;
+}
+
+.caja img {
+ width: 100%;
+ height: auto;
+}
+
+.caja:hover {
+ padding: 25px; 
+ color: #998c6f;
+}
+
+.caja h6 {
+  margin: 5px 0;
+}
+
+/* puedes dejarlo, pero ya no afecta */
+nav a {
+ margin-left: 20px;
+ text-decoration: none;
+ color: #000000;
+ }
+
+</style>
+</head>
+
+<body>
+
+<nav class="arriba">
+    <a></a>
+    <a href="index.html">E|PAVEZ</a>
+    <a></a>
+    <a href="obras.html">OBRA</a>
+    <a href="bio.html">BIO</a>
+    <a href="contacto.html">CONTACT</a>
+</nav>
+
+<div class="abajo">
+        <div class="bloque">
+          <img src="img/timon.PNG">
+          <h4>Timón</h4>
+          <h6>Metal y madera</h6>
+        </div>
+
+        <div class="bloque">
+        <img src="img/paladeobra1.png">
+          <h4>Pala de Obra</h4>
+          <h6>Metal</h6>
+        </div>
+
+        <div class="bloque">
+        <img src="img/cube.png">
+        <h4>Cube</h4>
+        <h6>Planchas de acero</h6>
+        </div>
+
+        <div class="bloque">
+        <img src="img/anticucho1.PNG">
+        <h4>Anticucho</h4>
+        <h6>Fierro y madera</h6>
+        </div>
+</div>
+
+<div class="abaje">
+     <div class="caja">
+          <img src="img/cristoclose.jpg">
+          <h4>El cristo</h4>
+          <h6>Metal y Hojalata</h6>
+        </div>   
+</div>
+
+</body>
+</html>
