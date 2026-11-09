@@ -440,3 +440,6 @@ repetitivo se hace presente a lo largo de todo el archivo “quiero un millón d
 esa fue la imagen que usé en el video con IA
 No quise utilizar mucho porque me gusta mas grabar mis videos.
 ```
+# Links
+#### Experimentación: https://drive.google.com/drive/folders/184XyJkJYKXxsIiWvCEe9IRpLhLPAvpeU?usp=drive_link
+#### Desarrollo técnico: https://drive.google.com/drive/folders/19TtuQ8NsSARhdE6474aGt2o3C147RAOk?usp=drive_link
