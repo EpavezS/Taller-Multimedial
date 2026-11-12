@@ -43,6 +43,9 @@ body{
 </div>
 </html>
 ```
+## Registro del proyecto
+
+![Captura de pantalla](w/img/Captura%20de%20pantalla%202026-11-12%20103202.png)
   <img src="https://i.giphy.com/media/xn8xD14FtUGQgXxST5/giphy.gif" width="120">
 
 #### Cuando una persona hace clic en “Ir a la página 2”, el navegador abre pagina2.html.
@@ -188,6 +191,7 @@ nav a {
 </body>
 </html>
 ```
+![GIF del proyecto](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/gif%20(1).gif)
 # Semana 3: Mini sitio (3 páginas conectadas)
 DEBO PENSAR EN UNA ESTRUCTURA NARRATIVA
 
@@ -345,7 +349,7 @@ color: #464138;
 </body>
 </html>
 ```
-
+![GIF del proyecto](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/gif.gif)
 #### Ejercicio 3: Flexbox (centrado total)
 # NO SÉ DONDE LO PUSE
 
