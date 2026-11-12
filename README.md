@@ -6,8 +6,10 @@
 2. [ASOMBROSA Semana 2](#semana-2-avances-con-ia)
 3. [ESTUPENDA Semana 3](#semana-3-mini-sitio-3-páginas-conectadas) <br>
 4. [MARAVILLOSA Semana 4](#semana-4-css-intermedio-interacción-y-layout) <br>
+6. [ESTRAFALARIO Semana 5](#semana-25-touch-designer)<br>
 5. [FASCINANTE Semana 8](#semana-8-fascinante-pagina-final)
 6. [INCREIBLE Semana 25](#semana-25-touch-designer)<br>
+
 
 ### Semana 1:
 ``` html
