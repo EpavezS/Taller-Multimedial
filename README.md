@@ -8,7 +8,11 @@
 4. [MARAVILLOSA Semana 4](#semana-4-css-intermedio-interacción-y-layout) <br>
 6. [ESTRAFALARIO Semana 5](#semana-25-touch-designer)<br>
 5. [FASCINANTE Semana 8](#semana-8-fascinante-pagina-final)
-6. [INCREIBLE Semana 25](#semana-25-touch-designer)<br>
+6. [VIRTUAL FILE IN](#virtual-file-in) <br>
+7. [AUDIO FILE IN](#audio-file-in) <br>
+8. [MAPPING](#mapping) <br>
+9. [LSISTEM](#lsistem) <br>
+10. [INCREIBLE Semana 25](#semana-25-touch-designer)<br>
 
 
 ### Semana 1:
@@ -433,6 +437,14 @@ nav a {
 </body>
 </html>
 ```
+# Virtual File in
+Sinceramente no recuerdo mucho de este ejercicio solo sé que dentro de él metí muchas cosas y talvez sean encargos de más de una semana unidos en un mismo archivo pero era porque me encontraba experiemntando con los tops y chops, aparted e descubrir el virtual file in, debido que así quedaban las iamgenes y los archivos de forma local en el ejercicio de touch y así no se perdian las iamgenes si es que les cambiaba el nombre o de lugar.
+![GIF](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/giphy%20(2).gif)
+
+# Audio File In
+Esa semana aprendimos a conectar imagenes es decir movie files in en audios file in y outs, fue netretenido yo elegí una cancion conla que estaba pegada esa semana, ya que hace poco habia visto la pelicula de michael y si bien soy fan esat vez estaba muy emocionada por escucharlo tanto nuevamente asique mi ejercicio tambien lo resolví usando su cancion SCREAM e imagenes del video musical.
+![GIF](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/giphy%20(3).gif)
+
 # Mapping
 En esta increible semana que no reccuenrdo el profesor Mauricio nos enseñó a mappear, fue entretenido pero no la aplicaré por lo pronto, pero me hizo darme cuenta de las formas de proyectar trabajpos con perpectivas extrañas o angulos que no lograba entender como podian proyectar algo así, y ahora se como hacerlo de sierta forma. Oajla aplicarlo. 
 Este fue mi ejercicio. Use fotos de mi gato JULIO
@@ -441,7 +453,9 @@ Este fue mi ejercicio. Use fotos de mi gato JULIO
 
 # Lsistem
 Durante esta ocacion nos enseñaron a hacer arboles dentro del programa touch designer, me gusto saber uno solo con cogigos que arteraban completamente sals ramas de este objeto, fue como modelar en 3D pero con codigos, todo un trabajo por detrás.
-<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmRmdGgyeDAzeDN5bzRzenZwNWs4aXIyN3ozZjBrNjBtOWVta2J4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JhVlVKqOWJ5tXnkoOA/giphy.gif" alt="GIF" width="300"><br>
+![GIF](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/giphy%20(1).gif)
+
+
 
 # SALTO ÍNCREIBLE A LA SEMANA 25
 ## SEMANA 25 TOUCH DESIGNER
