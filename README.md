@@ -8,11 +8,12 @@
 4. [MARAVILLOSA Semana 4](#semana-4-css-intermedio-interacción-y-layout) <br>
 6. [ESTRAFALARIO Semana 5](#semana-25-touch-designer)<br>
 5. [FASCINANTE Semana 8](#semana-8-fascinante-pagina-final)
-6. [VIRTUAL FILE IN](#virtual-file-in) <br>
-7. [AUDIO FILE IN](#audio-file-in) <br>
-8. [MAPPING](#mapping) <br>
-9. [LSISTEM](#lsistem) <br>
-10.[INCREIBLE Semana 25](#semana-25-touch-designer)<br>
+6. [SEMANA 12](#semana-12) <br>
+7. [VIRTUAL FILE IN](#virtual-file-in) <br>
+8. [AUDIO FILE IN](#audio-file-in) <br>
+9. [MAPPING](#mapping) <br>
+10. [LSISTEM](#lsistem) <br>
+11.[INCREIBLE Semana 25](#semana-25-touch-designer)<br>
 
 
 ### Semana 1:
@@ -372,6 +373,17 @@ nav a {
 </body>
 </html>
 ```
+
+# Semana 12
+Generación de imagenes con IA
+Programa utilizado COMFY
+![Imagen](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/Captura%20de%20pantalla%202026-11-19%20095811.png)
+De principio no quería relacionar la generación de imagenes relacionado con mi tesis y lo estaba dirigiendo a un lado más absurdo, posteriormente me fui dando cuenta que jno era lo que quería. ahhaha
+![Imagen](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/Captura%20de%20pantalla%202026-11-19%20095900.png)
+áca me di cuenta que el generador me imagenes de inmediato condicionada el estilo en el que me realizaba las imagenes si le mencionaba al personaje que quería que hiciera, la palabra "homero" de inmediato me realizaba las imagenes con ese estilo de la caricatura de los simsons y trate de describir al personaje con sus caracteristicas fisicas que mencionando su nombre para que jo saliera con el estilod e la animación.
+![Imagen](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/Captura%20de%20pantalla%202026-11-19%20095916.png)
+y ahí es cuando mecionó que ya no quería seguir haciendo lo de homero, que era parete de un meme con ese estilo de play 2 y centrarme en un trabajo que tuviera relación con mi tesis, en este caso la soldadura y el trabajo en metal.
+
 # Virtual File in
 Sinceramente no recuerdo mucho de este ejercicio solo sé que dentro de él metí muchas cosas y talvez sean encargos de más de una semana unidos en un mismo archivo pero era porque me encontraba experimentando con los tops y chops, aparte de descubrir el virtual file, con él las imagenes y los archivos quedaban de forma local en el archivo de touch y no se perdian las imagenes si es que les cambiaba el nombre o de lugar.
 ![GIF](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/giphy%20(2).gif)
