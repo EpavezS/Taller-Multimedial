@@ -12,7 +12,7 @@
 7. [AUDIO FILE IN](#audio-file-in) <br>
 8. [MAPPING](#mapping) <br>
 9. [LSISTEM](#lsistem) <br>
-10. [INCREIBLE Semana 25](#semana-25-touch-designer)<br>
+10.[INCREIBLE Semana 25](#semana-25-touch-designer)<br>
 
 
 ### Semana 1:
@@ -204,71 +204,6 @@ index.html
 obra.html
 contacto.html
 
-##### index.html:
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<title>Inicio</title>
-</head>
-
-<body>
-
-<h1>Mi sitio</h1>
-
-<img src="inicio.jpg" alt="Imagen de inicio" width="300">
-
-<br><br>
-
-<a href="obra.html">Obra</a><br>
-<a href="contacto.html">Contacto</a>
-
-</body>
-</html>
-```
-##### obra.html:
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<title>Obra</title>
-</head>
-
-<body>
-
-<h1>Mi obra</h1>
-
-<img src="obra.jpg" alt="Imagen de la obra" width="300">
-
-<p>Descripción de mi trabajo artístico</p>
-
-<a href="index.html">Inicio</a><br>
-<a href="contacto.html">Contacto</a>
-
-</body>
-</html>
-```
-##### contacto.html:
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<title>Contacto</title>
-</head>
-
-<body>
-
-<h1>Contacto</h1>
-
-<img src="contacto.jpg" alt="Imagen de contacto" width="300">
-
-<p>email@email.com</p>
-
-<a href="index.html">Inicio</a><br>
-<a href="obra.html">Obra</a>
-
-</body>
-</html>
 ```
 # USÉ MUCHA IA YA NO QUIERO
 ## Semana 4. CSS Intermedio (Interacción y Layout)
@@ -438,24 +373,22 @@ nav a {
 </html>
 ```
 # Virtual File in
-Sinceramente no recuerdo mucho de este ejercicio solo sé que dentro de él metí muchas cosas y talvez sean encargos de más de una semana unidos en un mismo archivo pero era porque me encontraba experiemntando con los tops y chops, aparted e descubrir el virtual file in, debido que así quedaban las iamgenes y los archivos de forma local en el ejercicio de touch y así no se perdian las iamgenes si es que les cambiaba el nombre o de lugar.
+Sinceramente no recuerdo mucho de este ejercicio solo sé que dentro de él metí muchas cosas y talvez sean encargos de más de una semana unidos en un mismo archivo pero era porque me encontraba experimentando con los tops y chops, aparte de descubrir el virtual file, con él las imagenes y los archivos quedaban de forma local en el archivo de touch y no se perdian las imagenes si es que les cambiaba el nombre o de lugar.
 ![GIF](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/giphy%20(2).gif)
 
 # Audio File In
-Esa semana aprendimos a conectar imagenes es decir movie files in en audios file in y outs, fue netretenido yo elegí una cancion conla que estaba pegada esa semana, ya que hace poco habia visto la pelicula de michael y si bien soy fan esat vez estaba muy emocionada por escucharlo tanto nuevamente asique mi ejercicio tambien lo resolví usando su cancion SCREAM e imagenes del video musical.
+Esa semana aprendimos a conectar imagenes es decir movie files en audios file in y outs, fue entretenido. Yo elegí una canción con la que estaba pegada esa semana, ya que hace poco había visto la película de Michael Jackson, y si bien soy fan esta vez estaba muy emocionada por escucharlo tanto nuevamente, así que mi ejercicio también lo resolví usando su canción SCREAM e imágenes del video musical.
 ![GIF](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/giphy%20(3).gif)
 
 # Mapping
-En esta increible semana que no reccuenrdo el profesor Mauricio nos enseñó a mappear, fue entretenido pero no la aplicaré por lo pronto, pero me hizo darme cuenta de las formas de proyectar trabajpos con perpectivas extrañas o angulos que no lograba entender como podian proyectar algo así, y ahora se como hacerlo de sierta forma. Oajla aplicarlo. 
-Este fue mi ejercicio. Use fotos de mi gato JULIO
+En esta increíble semana que no recuerdo, el profesor Mauricio nos enseñó a mappear, fue entretenido pero no la aplicaré por lo pronto. Aunque me hizo darme cuenta de las formas de proyectar trabajos con perpectivas extrañas o angulos que no lograba entender como podían proyectar algo así, y ahora sé como hacerlo de sierta forma. Ojalá aplicarlo. 
+Este fue mi ejercicio. Use fotos de mi gato JULIO.
 
 ![Mapping](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/mapping.gif)
 
 # Lsistem
-Durante esta ocacion nos enseñaron a hacer arboles dentro del programa touch designer, me gusto saber uno solo con cogigos que arteraban completamente sals ramas de este objeto, fue como modelar en 3D pero con codigos, todo un trabajo por detrás.
+Durante esta ocación nos enseñaron a hacer arboles dentro del programa touch designer, me gustó saber uno solo con códigos que alteraban completamente las ramas de este objeto, fue como modelar en 3D pero escribiendo par de letras en recuadros que hacían todo por mi, todo un trabajo por detrás.
 ![GIF](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/giphy%20(1).gif)
-
-
 
 # SALTO ÍNCREIBLE A LA SEMANA 25
 ## SEMANA 25 TOUCH DESIGNER
