@@ -433,6 +433,11 @@ nav a {
 </body>
 </html>
 ```
+# Mapping
+En esta increible semana que no reccuenrdo el profesor Mauricio nos enseñó a mappear, fue entretenido pero no la aplicaré por lo pronto, pero me hizo darme cuenta de las formas de proyectar trabajpos con perpectivas extrañas o angulos que no lograba entender como podian proyectar algo así, y ahora se como hacerlo de sierta forma. Oajla aplicarlo. 
+Este fue mi ejercicio. Use fotos de mi gato JULIO
+![Mapping](https://github.com/EpavezS/Taller-Multimedial/blob/main/w/img/mapping.gif)
+
 # SALTO ÍNCREIBLE A LA SEMANA 25
 ## SEMANA 25 TOUCH DESIGNER
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2FrMnJsbW80YnppcmFqczMwYnllcXdiMDVtY2NwNDF3d3Y2MzlrZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xe3XUwlm2E3mK1a4H7/giphy.gif" alt="GIF" width="300"><br><br>
@@ -443,6 +448,7 @@ repetitivo se hace presente a lo largo de todo el archivo “quiero un millón d
 ```
 <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMm12Njltdm03Z2NnYXcwYjZiYmZ4cW5oODJhaGxxbWg5dGVrb2tueSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TVNtwHKc9Ye9NhDrxo/giphy.gif" alt="GIF" width="300"><br>
 ```
+
 esa fue la imagen que usé en el video con IA
 No quise utilizar mucho porque me gusta mas grabar mis videos.
 ```
