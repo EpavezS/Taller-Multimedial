@@ -436,7 +436,12 @@ nav a {
 # Mapping
 En esta increible semana que no reccuenrdo el profesor Mauricio nos enseñó a mappear, fue entretenido pero no la aplicaré por lo pronto, pero me hizo darme cuenta de las formas de proyectar trabajpos con perpectivas extrañas o angulos que no lograba entender como podian proyectar algo así, y ahora se como hacerlo de sierta forma. Oajla aplicarlo. 
 Este fue mi ejercicio. Use fotos de mi gato JULIO
-![Mapping](https://github.com/EpavezS/Taller-Multimedial/blob/main/w/img/mapping.gif)
+
+![Mapping](https://raw.githubusercontent.com/EpavezS/Taller-Multimedial/main/w/img/mapping.gif)
+
+# Lsistem
+Durante esta ocacion nos enseñaron a hacer arboles dentro del programa touch designer, me gusto saber uno solo con cogigos que arteraban completamente sals ramas de este objeto, fue como modelar en 3D pero con codigos, todo un trabajo por detrás.
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmRmdGgyeDAzeDN5bzRzenZwNWs4aXIyN3ozZjBrNjBtOWVta2J4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JhVlVKqOWJ5tXnkoOA/giphy.gif" alt="GIF" width="300"><br>
 
 # SALTO ÍNCREIBLE A LA SEMANA 25
 ## SEMANA 25 TOUCH DESIGNER
